@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+:root{
+    --primary-color: #ba9200;
+    --secondary-color:#1d1700;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    background-image: url("images/elf_land.png") ;
+    margin: 0%;
+    margin-bottom:0%;
+}
+header{
+    background-color: var(--secondary-color);
+    padding: 0.5rem 0.5rem;
+    background-blend-mode: hue;
+    text-align: center;
+    opacity: 90%;
+
+}
+header #heading{
+    text-decoration-color: var(--primary-color);
+    font-size: xx-large;
+    color: var(--primary-color);
+}
+textarea{
+    text-align: left;
+    display: block;
+    background-color: var(--secondary-color);
+    width: 60%;
+    height: 10vh;
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--primary-color);
+    opacity: 95%;
+    border: var(--primary-color);
+}
+.btn-class{
+    padding: 1rem 1rem;
+    text-align: center;
+}
+button{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold; 
+    height: 5vh;
+    width: 25vh;   
+    font-size: large;
+    border-radius: 0.5rem;
+    border: var(--secondary-color);
+}
+.output{
+    text-align: left;
+    display: block;
+    background-color: var(--secondary-color);
+    width: 60%;
+    height: 10vh;
+    margin-top: 1rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--primary-color);
+    opacity: 95%;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+footer{
+    margin-top: 7rem;
+    text-align: center; 
+    padding:0.5rem 0rem 2rem 0rem;
+    background-color: var(--secondary-color); 
+    opacity: 95%;
+
+}
+#btn-translate{
+    margin-top: 1rem;
+}
